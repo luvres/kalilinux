@@ -6,6 +6,10 @@ https://github.com/offensive-security/kali-linux-docker
 ```
 docker run --rm --name Kali -h kali -ti izone/kalilinux bash
 ```
+##### Search metapackages
+```
+apt-cache search kali-linux
+```
 ##### Build
 ```
 docker build -t izone/kalilinux .
